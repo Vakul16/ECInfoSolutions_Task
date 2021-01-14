@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  width: 95%;
+  margin: 15px auto;
+}
+
+.imageClass{
+  background-image: URL("https://media.wired.com/photos/5d803f5dc891950008ce3447/master/w_2560%2Cc_limit/iphone-11_6175-Edit.jpg");
+  border-radius :10px;
+  /* border-style: 10px solid black; */
+  width: 40% !important;
+  height: 25% !important;
+  background-size: 340px 150px;
+  background-repeat: no-repeat;
+}
+.textClass{
+  border-radius :10px;
+  width: 40% !important;
+  /* height: 10% !important; */
+}
+.priceClass{
+  border-radius :10px;
+  width: 40% !important;
+  /* height: 10% !important; */
+}
+.sourceClass{
+  border-radius :10px;
+  width: 40% !important;
+  /* height: 10% !important; */
+}
+.expirationClass{
+  border-radius :10px;
+  width: 40% !important;
+  /* height: 10% !important; */
+}
+.qrCode{
+  /* border-radius :10px; */
+  width: 20% !important;
+  height: 20% !important;
+  background-image: URL("https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/markets/core_market_full/generator/dist/generator/assets/images/websiteQRCode_noFrame.png");
+  background-size: 120px 120px;
+  /* background-repeat: no-repeat; */
+}
+.barCode{
+  /* border-radius :10px; */
+  width: 30% !important;
+  height: 10% !important;
+  background-image: URL("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Hitman_barcode.svg/1024px-Hitman_barcode.svg.png");
+  background-size: 210px 100px;
+  background-repeat: no-repeat;
+}
+
+.container-drag {
+  text-align: center;
+  border: 100px;
+  /* height: 50%;
+  width: 50%; */
+}
+.DesignObject {
+  position: absolute;
+  width: 40%;
+  height: 80vh;
+  /* width: 40px;
+  height: 20px; */
+  left: 0;
+  top: 10;
+  border: 1px solid lightgray;
+}
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width:100%;
+}
+
+.task-header {
+  display: inline-block;
+  background-color: lightgray;
+  width:100%;
+}
+
+.droppable {
+  position: absolute;
+  width: 40%;
+  height: 80vh;
+  border: 1px solid lightgray;
+  /* border-style: 1px solid black */
+  right: 0;
+  top: 10;
+  /*border-left: 1px;*/
+}
+
+.draggable {
+  width: 30%;
+  height: 7%;
+  border: 1px solid lightgray;
+  /* background-image: URL("https://image.shutterstock.com/image-vector/mobile-phone-flat-web-icon-260nw-250366846.jpg"); */
+  margin: 5px auto;
+  line-height: 2.5em;
+  ;
+}
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
